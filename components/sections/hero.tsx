@@ -6,7 +6,7 @@ import Typewriter from "@/components/ui/typewriter";
 
 export default function Hero() {
   return (
-    <section id="home" className="page-container section">
+    <section id="home" className="page-container section -mt-6 md:-mt-10">
       <div className="grid items-center gap-10 md:grid-cols-2">
         {/* Left: text */}
         <div className="stack-lg text-left">
