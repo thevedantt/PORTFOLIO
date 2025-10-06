@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   title: "Vedant's Portfolio",
   description: 'Python Developer | Full-Stack Developer | AI/ML Enthusiast',
   icons: {
-    icon: '/fav.jpg',
-    shortcut: '/fav.jpg',
-    apple: '/fav.jpg',
+    icon: '/logo.jpg',
+    shortcut: '/logo.jpg',
+    apple: '/logo.jpg',
   },
 };
 
