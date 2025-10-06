@@ -6,6 +6,11 @@ import { Poppins } from 'next/font/google';
 export const metadata: Metadata = {
   title: "Vedant's Portfolio",
   description: 'Python Developer | Full-Stack Developer | AI/ML Enthusiast',
+  icons: {
+    icon: '/fav.jpg',
+    shortcut: '/fav.jpg',
+    apple: '/fav.jpg',
+  },
 };
 
 const poppins = Poppins({
