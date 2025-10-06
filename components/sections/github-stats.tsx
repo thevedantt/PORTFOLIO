@@ -33,8 +33,7 @@ export default function GithubStats() {
                   className={`${lang.className} ${mounted ? "bar-appear" : ""}`}
                   style={{
                     // use CSS var to animate to width
-                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                    // @ts-ignore CSS custom property
+                    // @ts-expect-error CSS custom property
                     "--w": `${lang.value}%`,
                   }}
                   title={`${lang.name} ${lang.value}%`}
@@ -57,7 +56,7 @@ export default function GithubStats() {
                   <div
                     className={`${lang.className} ${mounted ? "bar-appear" : ""}`}
                     style={{
-                      // @ts-ignore CSS custom property
+                      // @ts-expect-error CSS custom property
                       "--w": `${lang.value}%`,
                       height: "100%",
                     }}

@@ -19,7 +19,7 @@ export default function Contact() {
           <CardHeader className="text-center anim-fade-up">
             <CardTitle>Get in Touch</CardTitle>
             <CardDescription>
-              Have a project in mind or just want to say hi? I'd love to hear from you.
+              Have a project in mind or just want to say hi? I&apos;d love to hear from you.
             </CardDescription>
           </CardHeader>
           <CardContent className="anim-fade-up anim-delay-1">

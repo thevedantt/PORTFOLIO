@@ -40,7 +40,7 @@ export default function About() {
         </Card>
       </div>
       <blockquote className="text-center text-xl italic text-muted-foreground md:text-2xl anim-fade-up anim-delay-2">
-        "{personalInfo.quote}"
+        &ldquo;{personalInfo.quote}&rdquo;
       </blockquote>
     </div>
   );

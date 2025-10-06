@@ -76,7 +76,16 @@ export default function Experience() {
               <div className="space-y-8">
                 <div className="space-y-6">
                   {achievements.map((item, index) => (
-                    <TimelineItem key={index} icon={item.icon} title={item.title} subtitle={item.event} date="" description={item.description} image={(item as any).image} href={(item as any).href} />
+                    <TimelineItem
+                      key={index}
+                      icon={item.icon}
+                      title={item.title}
+                      subtitle={item.event}
+                      date=""
+                      description={item.description}
+                      image={"image" in item ? item.image : undefined}
+                      href={"href" in item ? item.href : undefined}
+                    />
                   ))}
                 </div>
                  <div className="space-y-6">
