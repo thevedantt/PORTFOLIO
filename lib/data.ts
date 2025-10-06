@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 
 export const personalInfo = {
-  name: "Vedant Talekar",
+  name: "VEDANT TALEKAR",
   aka: "thevedantt",
   title: "Python Developer | Full-Stack Developer | AI/ML Enthusiast",
   bio: "Hi there! I’m Vedant — a developer who blends code with creativity and AI with real-world utility. I build scalable web apps, smart systems, and AI-driven solutions that matter.",
@@ -144,19 +144,22 @@ export const achievements = [
         icon: Award,
         title: "2nd Runner-Up",
         event: "Avishkaar Season 2 (2024)",
-        description: "A national-level hackathon by GeeksforGeeks."
+        description: "A national-level hackathon by GeeksforGeeks.",
+        image: "/img1.jpeg"
     },
     {
         icon: Award,
         title: "Winner",
         event: "Inter-college project competition",
-        description: "Won in 2025 and 2024."
+        description: "Won in 2025 and 2024.",
+        image: "/img2.jpeg"
     },
     {
         icon: Award,
         title: "Runner-Up",
         event: "INNOVATHON (2025)",
-        description: "In the GenAI category."
+        description: "In the GenAI category.",
+        href: "https://www.linkedin.com/feed/update/urn:li:activity:7316037250172006400/"
     }
 ];
 

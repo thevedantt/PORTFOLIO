@@ -20,7 +20,7 @@ export default function Projects() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((project, index) => (
-              <Card key={index} className="flex flex-col overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-primary/20 hover:shadow-lg">
+              <Card key={index} className="flex flex-col overflow-hidden card-hover">
                 <CardHeader>
                   <CardTitle className="text-xl">{project.title}</CardTitle>
                 </CardHeader>

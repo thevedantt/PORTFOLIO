@@ -8,7 +8,7 @@ const contactSchema = z.object({
   message: z.string().min(10, "Message must be at least 10 characters."),
 });
 
-type State = {
+export type State = {
   errors?: {
     name?: string[];
     email?: string[];

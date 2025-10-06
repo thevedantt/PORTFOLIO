@@ -13,15 +13,31 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Skills />
-        <Experience />
-        <GithubStats />
-        <Blog />
-        <Contact />
+      <main className="flex-1 page-container stack-lg">
+        <section id="hero" className="section">
+          <Hero />
+        </section>
+        <section id="about" className="section section-muted rounded-lg">
+          <About />
+        </section>
+        <section id="projects" className="section">
+          <Projects />
+        </section>
+        <section id="skills" className="section section-muted rounded-lg">
+          <Skills />
+        </section>
+        <section id="experience" className="section">
+          <Experience />
+        </section>
+        <section id="github-stats" className="section section-muted rounded-lg">
+          <GithubStats />
+        </section>
+        <section id="blog" className="section">
+          <Blog />
+        </section>
+        <section id="contact" className="section section-muted rounded-lg">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>
